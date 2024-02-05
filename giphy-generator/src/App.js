@@ -6,7 +6,6 @@ import Button from './components/Button';
 function App() {
   return (
     <div className="App">
-      <h1>This is my App (Parent)</h1>
       <Title/>
       <Button/>
     </div>
