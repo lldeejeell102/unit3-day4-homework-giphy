@@ -1,9 +1,9 @@
 function GiphyDisplay (props){
-    console.log(props)
+    console.log(props.image.gif)
     return(
         <div>
             <h1>Pull random gifs from Giphy</h1>
-            {/* <img src={props.setGif}/> */}
+            <img src={props.image.gif}/>
         </div>
     )
 }
